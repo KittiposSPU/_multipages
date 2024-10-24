@@ -1,0 +1,30 @@
+.App{
+    text-align: center
+}
+.wrapper{
+    background-image: url("../../asset/background.jpg");
+    background-image: cover;
+    background-position: center;
+    display: grid;
+    gap: 0.5rem;
+    justify-content: space-between;
+    grid-template-columns: 1fr 2fr;
+    align-items: start;
+    margin: 0.5rem;
+}
+
+.title{
+    padding: 1rem;
+    margin: 1rem;   
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.name{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}

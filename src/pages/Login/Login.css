@@ -1,0 +1,64 @@
+.login-container {
+    width: 400px;
+    padding: 2rem;
+    margin: 5% auto;
+    background: white; /* พื้นหลังสีขาว */
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 0.5s; /* เอฟเฟกต์การเข้ามา */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2 {
+    color: #00796b; /* สีเขียว */
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.Form-label {
+    font-weight: 600; /* ตัวหนาสำหรับ Label */
+    color: #004d40; /* สีน้ำเงินเข้ม */
+}
+
+.Form-control {
+    border-radius: 5px;
+    border: 1px solid #00796b; /* ขอบสีเขียว */
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.Form-control:focus {
+    border-color: #004d40; /* เปลี่ยนสีขอบเมื่อ focus */
+    box-shadow: 0 0 5px rgba(0, 121, 107, 0.5);
+}
+
+.btn-success {
+    background-color: #00796b; /* สีพื้นฐาน */
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1.5rem;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s; /* เพิ่มการเปลี่ยนสี */
+}
+
+.btn-success:hover {
+    background-color: #004d40; /* สีเข้มเมื่อ hover */
+    transform: translateY(-2px); /* ยกขึ้นเล็กน้อย */
+}
+
+.error-message {
+    color: red; /* สีแดงสำหรับข้อความผิดพลาด */
+    margin-top: 1rem; /* ระยะห่างด้านบน */
+}

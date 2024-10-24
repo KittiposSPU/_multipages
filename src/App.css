@@ -1,0 +1,15 @@
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed red ;
+    width: 1020px ;
+    padding: 3px;
+}
